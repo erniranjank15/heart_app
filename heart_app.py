@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Page selection (assuming a simple sidebar for navigation)
 st.sidebar.title("Navigation")
