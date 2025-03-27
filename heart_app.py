@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-heart_disease_model = pickle.load(open('C:/Users/kasot/Desktop/mini project/trained_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Assuming 'selected' is defined somewhere in your code
 selected = 'Heart Disease Prediction'  # Set this variable as needed
